@@ -65,7 +65,7 @@ class MyApp extends StatelessWidget {
 
         textButtonTheme: TextButtonThemeData(
           style: TextButton.styleFrom(
-            foregroundColor: Colors.pink.shade700,
+            foregroundColor: Colors.pink,
             textStyle: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
