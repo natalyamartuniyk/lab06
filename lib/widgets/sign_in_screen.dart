@@ -43,7 +43,6 @@ class _SignInScreenState extends State<SignInScreen> {
               controller: _loginController,
               decoration: const InputDecoration(
                 labelText: 'Логін',
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 16),
@@ -52,7 +51,6 @@ class _SignInScreenState extends State<SignInScreen> {
               obscureText: true,
               decoration: const InputDecoration(
                 labelText: 'Пароль',
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 24),

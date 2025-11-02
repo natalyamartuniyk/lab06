@@ -30,7 +30,6 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
               controller: _loginController,
               decoration: const InputDecoration(
                 labelText: 'Логін (E-mail)',
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 24),

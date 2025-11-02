@@ -34,7 +34,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
               controller: _nameController,
               decoration: const InputDecoration(
                 labelText: "Ім'я користувача",
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 16),
@@ -42,7 +41,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
               controller: _loginController,
               decoration: const InputDecoration(
                 labelText: 'Логін (E-mail)',
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 16),
@@ -51,7 +49,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
               obscureText: true,
               decoration: const InputDecoration(
                 labelText: 'Пароль',
-                border: OutlineInputBorder(),
               ),
             ),
             const SizedBox(height: 24),
